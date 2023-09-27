@@ -1,0 +1,29 @@
+.image_gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 70px;
+    row-gap: 40px;
+    position: static;
+    margin: 0;
+    padding: 100px;
+    background-color: gray;
+}
+.border{
+    width: auto;
+}
+.thumbnail{
+    height: auto;
+    width: 100%;
+    border-radius: 25%;
+    border: 10px #A52A2A;
+    border-style: inset;
+    margin-bottom: 10px;
+
+}
+.border_text{
+    font-size:48px;
+    margin: 0;
+    text-align:center;
+
+}
+
